@@ -16,10 +16,10 @@ useOnClickOutside(node, () => setOpen(false))
         <GlobalStyles />
         <div>
           <h1>Hello. This is burger menu tutorial</h1>
-          <img src="https://image.flaticon.com/icons/svg/2965/2965210.svg" alt="burger icon" />
+          <img src="https://www.flaticon.com/premium-icon/icons/svg/2403/2403364.svg" alt="burger icon" />
           <div>
           </div>
-          <small>Icon made by Freepik from www.flaticon.com</small>
+          {/* <small>Icon made by Freepik from www.flaticon.com</small> */}
         </div>
         <div ref={node}>
           <Burger open={open} setOpen={setOpen} />
